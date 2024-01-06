@@ -5,7 +5,8 @@
 // @grant none
 // @match https://*.neopets.com/*
 // @require https://code.jquery.com/jquery-3.6.4.min.js
-// @downloadURL https://raw.githubusercontent.com/kadomoni/JellyNeo-Assistant/main/jellyneo.userscript.js
+// @downloadURL https://raw.githubusercontent.com/kadomoni/JellyNeo-Assistant/main/jellyneo.user.js
+// @updateURL https://raw.githubusercontent.com/kadomoni/JellyNeo-Assistant/main/jellyneo.user.js
 // ==/UserScript==
 const sleep = async (ms) => {return new Promise(resolve => setTimeout(resolve, ms*100));}
 
