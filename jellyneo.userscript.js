@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name     JellyNeo Assistant
-// @author	 Kadomoni
+// @author   Kadomoni
 // @version  1
 // @grant    none
-// @match		 https://*.neopets.com/*
-// @require	 https://code.jquery.com/jquery-3.6.4.min.js
+// @match    https://*.neopets.com/*
+// @require  https://code.jquery.com/jquery-3.6.4.min.js
 // ==/UserScript==
 const sleep = async (ms) => {return new Promise(resolve => setTimeout(resolve, ms*100));}
 
@@ -27,7 +27,6 @@ function displayValue(item) {
     if (items.length > 0) {
       
       items.each((idx)=>{
-        console.log(".");
         let item = items[idx];
         displayValue(item);
         
